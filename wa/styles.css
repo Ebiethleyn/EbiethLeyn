@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* WhatsApp Icon */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* background-color: #25d366; */
+  padding: 0px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+  transition: background-color 0.3s;
+  z-index: 9999;
+}
+
+.whatsapp-icon:hover {
+  /* background-color: #128c7e; */
+}
+
+.whatsapp-icon i {
+  pointer-events: none; /* Prevent pointer events on icon itself */
+}

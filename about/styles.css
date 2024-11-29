@@ -1,0 +1,25 @@
+/* styles.css */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.about-section {
+  /* background-color: #f8f9fa; */
+}
+
+.about-section img {
+  border: 5px solid #f0f0f0;
+}
+
+.footer {
+  background-color: #07244c;
+}
+
+.footer .social-icons a {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}

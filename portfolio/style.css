@@ -1,0 +1,31 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  /* background: linear-gradient(90deg, #333, #555); */
+  /* background: red; */
+}
+
+footer {
+  background: #07244c;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer .social-icons a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #007bff;
+}

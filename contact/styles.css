@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+}
+footer {
+  background: #07244c;
+}
+footer .bi {
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+footer .bi:hover {
+  color: #007bff;
+}
+.asui {
+  font-size: 30px;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 10px;
+}
